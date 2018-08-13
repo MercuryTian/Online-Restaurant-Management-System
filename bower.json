@@ -1,0 +1,32 @@
+{
+  "name": "padio_rst",
+  "description": "Homework",
+  "main": "index.js",
+  "authors": [
+    "H&M"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "testaurant"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "font-awesome": "^4.7.0",
+    "angular-ui-router": "^0.3.2",
+    "angular-mocks": "^1.5.8",
+    "angular-resource": "^1.5.8",
+    "angular-route": "^1.5.8",
+    "ng-dialog": "^0.6.4"
+  }
+}

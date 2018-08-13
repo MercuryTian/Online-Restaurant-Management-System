@@ -1,0 +1,71 @@
+<div class="ngdialog-message">
+    
+        <div>
+            <div>
+                <h4>Reserve</h4>
+            </div>
+            <div>
+                <form class="form-horizontal" ng-submit="doRegister()" id="reserveform">
+                    <div class="form-group">
+                        <label for="Guestsnum" class="col-sm-2 control-label">Number of Guests</label>
+                        <div class="col-sm-10" style="padding:10px;">
+                            <label class="radio-inline">
+                                <input type="radio" name="num" id="inlineRadio1" value="1"> 1
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="num" id="inlineRadio2" value="2"> 2
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="num" id="inlineRadio3" value="3"> 3
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="num" id="inlineRadio3" value="3"> 4
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="num" id="inlineRadio3" value="3"> 5
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="num" id="inlineRadio3" value="3"> 6
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" >Section</label>
+                        <div>
+                            <label class="btn btn-success active">
+                            <input type="radio" autocomplete="off" checked name="_section" value="Y"> Non-smoking
+                            </label>
+                            <label class="btn btn-danger">
+                            <input type="radio" autocomplete="off" name="_section" value="N"> Smoking
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="time">Date and time</label>
+                        <div class="col-sm-4 has-feedback">
+                            <input type="date" class="form-control" id="time" value="Date" name="Date">
+                            <span class="glyphicon glyphicon-calendar form-control-feedback" aria-hidden="true"></span>
+                            <span id="inputGroupSuccess3Status" class="sr-only">(success)</span>
+                        </div>
+                        <div class="col-sm-4 has-feedback">
+                            <input type="time" class="form-control" id="time" value="Time" name="time">
+                            <span class="glyphicon glyphicon-time form-control-feedback" aria-hidden="true"></span>
+                            <span id="inputGroupSuccess3Status" class="sr-only">(success)</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-2">
+                            <button type="submit" class="btn btn-info">Reserve</button>
+                        </div>
+                        <div class="col-sm-2">
+                            <button type="button" class="btn btn-default" ng-click=closeThisDialog("Cancel")>Cancel</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="alert alert-warning alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Warning!</strong>： Please <strong>call</strong> us to reserve more than 6 guests.
+                </div>
+            </div>
+        </div>
+    </div>

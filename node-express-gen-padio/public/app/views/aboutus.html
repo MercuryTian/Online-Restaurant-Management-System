@@ -1,0 +1,162 @@
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+               <ul class="breadcrumb">
+                   <li><a href="index.html">Home</a></li>
+                   <li class="active">About Us</li>
+               </ul>
+            </div>
+            <div class="col-xs-12">
+               <h3>About Us</h3>
+               <hr>
+            </div>
+        </div>
+        
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-8">
+                <h2>FROM OUR FAMILY TO YOURS</h2>
+                <p>Bringing people together to share joy has been our family's inspiration since opening the first Panda Express in 1983 in Glendale, California. As we continue to open restaurants from coast to coast and around the world, the bold flavors of Chinese cuisine inspire our cooking, while our extended family of guests and associates remains at the heart of what we do. <em>Welcome to our family's Chinese Kitchen.</em></p>
+                <div class="well">
+                    <blockquote>
+                        <p>Our first Family Day helps to provide 10 million meals to Americans in need and celebrates our family-owned heritage.</p>
+                        <footer>Henry Liu,  
+                        <cite title="Source Title">The Wit and Wisdom of Yogi Berra, P. Pepe, Diversion Books, 2014</cite></footer>
+                    </blockquote>                
+                </div>
+
+            </div>
+            <div class="col-xs-12 col-sm-4">
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Facts At a Glance</h3>
+                    </div>
+                    <div class="panel-body">
+                        <dl class="dl-horizontal">
+                            <dt>Started</dt>
+                            <dd>3 Feb. 2013</dd>
+                            <dt>Major Stake Holder</dt>
+                            <dd>Padio Foods Inc.</dd>
+                            <dt>Last Year's Turnover</dt>
+                            <dd>$1,250,375</dd>
+                            <dt>Employees</dt>
+                            <dd>40</dd>
+                       </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-9">
+                <h2>Corporate Leadership</h2>
+               <ul class="media-list">
+                <li class="media" ng-repeat="leader in leaders">
+                    <div class="media-left media-middle">
+                        <a>
+                        <img class="media-object img-thumbnail"
+                        ng-src={{leader.image}} alt="Peter Pan">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">{{leader.name}}
+                        <small>{{leader.designation}}</small></h3>
+                        <p>{{leader.description}}</p>
+                    </div>
+                </li>
+            </ul>
+
+            </div>
+             <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+            </div>
+       </div>
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-9">
+                <h2>Facts &amp; Figures</h2>
+                <div class="table-responsive">
+                <table class="table table-striped">
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <th>
+                            2013
+                        </th>
+                        <th>
+                            2014
+                        </th>
+                        <th>
+                            2015
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            Employees
+                        </th>
+                        <td>
+                            15
+                        </td>
+                        <td>
+                            30
+                        </td>
+                        <td>
+                            40
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <th>
+                            Guests Served
+                        </th>
+                        <td>
+                            15000
+                        </td>
+                        <td>
+                            45000
+                        </td>
+                        <td>
+                            100,000
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <th>
+                            Special Events
+                        </th>
+                        <td>
+                            3
+                        </td>
+                        <td>
+                            20
+                        </td>
+                        <td>
+                            45
+                        </td>
+                    
+                    </tr>
+                    <tr>
+                        <th>
+                            Annual Turnover
+                        </th>
+                        <td>
+                            $251,325
+                        </td>
+                        <td>
+                            $1,250,375
+                        </td>
+                        <td>
+                            ~$3,000,000
+                        </td>
+                    
+                    </tr>
+                </table>
+                </div>
+            </div>
+             <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+            </div>
+       </div> 
+    </div>
